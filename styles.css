@@ -17,13 +17,14 @@ body {
 
 .social-links .button {
   text-decoration: none;
-  color: white; / تقدر تغيره حسب خلفيتك /
+  color: white; 
   transition: transform 0.2s;
 }
 
 .social-links .button:hover {
-  transform: scale(1.2); / تكبير عند المرور */
+  transform: scale(1.2); 
 }
+
 
 /* الخلفية المتحركة */
 .background {
@@ -101,7 +102,7 @@ p {
     margin: 0 10px;
     padding: 12px 24px;
     font-size: 1rem;
-    color: #49439b;
+    color: #0e076d;
     background: transparent;
     border: 2px solid #5c64da;
     border-radius: 25px;
