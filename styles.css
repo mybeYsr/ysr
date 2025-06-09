@@ -8,6 +8,22 @@ body {
     text-align: center;
     background-color: #000;
 }
+.social-links {
+  display: flex;
+  justify-content: center; /* يخليهم في الوسط /
+  gap: 20px; / المسافة بين الأيقونات /
+  margin-top: 20px;
+}
+
+.social-links .button {
+  text-decoration: none;
+  color: white; / تقدر تغيره حسب خلفيتك /
+  transition: transform 0.2s;
+}
+
+.social-links .button:hover {
+  transform: scale(1.2); / تكبير عند المرور */
+}
 
 /* الخلفية المتحركة */
 .background {
@@ -85,7 +101,7 @@ p {
     margin: 0 10px;
     padding: 12px 24px;
     font-size: 1rem;
-    color: #0e076d;
+    color: #49439b;
     background: transparent;
     border: 2px solid #5c64da;
     border-radius: 25px;
