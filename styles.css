@@ -10,8 +10,8 @@ body {
 }
 .social-links {
   display: flex;
-  justify-content: center; /* يخليهم في الوسط /
-  gap: 20px; / المسافة بين الأيقونات /
+  justify-content: center; 
+  gap: 20px; 
   margin-top: 20px;
 }
 
